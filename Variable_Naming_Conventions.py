@@ -9,3 +9,10 @@ studentName = "Umesh"
 totalMarks = 450
 print(studentName)
 print(totalMarks)
+
+#Pascal Case
+class StudentDetails:
+    pass
+
+class CircleAreaCalculator:
+    pass
