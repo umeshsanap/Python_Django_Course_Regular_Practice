@@ -127,3 +127,76 @@ print(fruits)
 print(numbers)
 print(mixed)
 print(matrix)
+
+#Accessing the list element using indexing
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])   # apple
+print(fruits[1])   # banana
+print(fruits[-1])  # cherry (negative index = from end)
+
+#Changin list item using indexing
+num = [1,2,3,4,5]
+num[0]="Aman"
+print(num)
+
+#Tuple
+# Tuple creation
+my_tuple = ("item1", "item2", "item3", ...)
+
+# Tuple of strings
+fruits = ("apple", "banana", "cherry")
+
+# Tuple of numbers
+numbers = (10, 20, 30, 40)
+
+# Mixed data types
+mixed = (25, "hello", 9.8, True)
+
+# Nested tuple (tuple inside a tuple)
+nested = ((1, 2, 3), (4, 5, 6))
+
+print(fruits)
+print(numbers)
+print(mixed)
+print(nested)
+
+#Sets
+# Creating a set
+my_set = {"item1", "item2", "item3"}
+
+# Normal set
+fruits = {"apple", "banana", "cherry"}
+
+# Duplicate items → automatically removed
+numbers = {10, 20, 20, 30, 40, 10}
+
+# Mixed data types
+mixed = {25, "hello", 9.8, True}
+
+print(fruits)
+print(numbers)
+print(mixed)
+
+#frozen sets
+nums = frozenset([1, 2, 3, 4])
+# nums.add(5) ❌ Error (cannot modify)
+print(nums)
+
+# Dictionary
+# Dictionary syntax
+my_dict = {
+    "key1": "value1", 
+    "key2": "value2", 
+    "key3": "value3"
+    }
+
+# Example of dictionary
+student = {
+    "name": "Ravi",
+    "age": 22,
+    "course": "Python",
+    "marks": 90
+}
+print(student)
+
+# 8788267372 --> Ganesh Shree Ram Lawns
